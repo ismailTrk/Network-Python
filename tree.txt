@@ -1,11 +1,12 @@
 Basic tree : 
 
-(of course this tree changeable on your scenario)
+(of course this tree for ony test)
+
 
 /etc/profile.d/
 ├── get_config.py
 ├── set_vlan.py
-└── test.sh
+└── welcome.sh
 
 /tmp/
 ├── switch_configs
