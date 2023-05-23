@@ -1,0 +1,29 @@
+Basic tree : 
+
+(of course this tree changeable on your scenario)
+
+/etc/profile.d/
+├── get_config.py
+├── set_vlan.py
+└── test.sh
+
+/tmp/
+├── switch_configs
+│   ├── user.1_R01.txt
+│   ├── user.1_R02.txt
+│   ├── user.1_R03.txt
+│   ├── user.1_R04.txt
+│   ├── user.1_R05.txt
+│   ├── user.1_R06.txt
+│   ├── user.1_R07.txt
+│   ├── user.1_R08.txt
+│   ├── user.1_R10.txt
+│   ├── user.1_R11.txt
+│   └── user.1_R9.txt
+└── switches.txt
+
+When user.1 run get_config.py that will see it as above.
+
+
+tree /usr/bin/
+└── netmiko_user
