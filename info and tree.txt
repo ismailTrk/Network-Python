@@ -6,10 +6,11 @@ Basic tree :
 /etc/profile.d/
 ├── get_config.py
 ├── set_vlan.py
+├── get_switch_names.py
 └── welcome.sh
 
 /tmp/
-├── switch_configs
+├── switch_configs/
 │   ├── user.1_R01.txt
 │   ├── user.1_R02.txt
 │   ├── user.1_R03.txt
@@ -21,7 +22,10 @@ Basic tree :
 │   ├── user.1_R10.txt
 │   ├── user.1_R11.txt
 │   └── user.1_R9.txt
+├──netmiko_get_names.log
+├──netmiko.log
 └── switches.txt
+
 
 When user.1 run get_config.py that will see it as above.
 
